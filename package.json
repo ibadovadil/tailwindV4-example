@@ -4,6 +4,7 @@
   "description": "Music festival website with tailwind",
   "main": "index.js",
   "scripts": {
+    "tw": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ibadovadil/tailwindV4-example/issues"
   },
-  "homepage": "https://github.com/ibadovadil/tailwindV4-example#readme"
+  "homepage": "https://github.com/ibadovadil/tailwindV4-example#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
 }
